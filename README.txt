@@ -16,3 +16,4 @@ CONTRIBUTIONS:
     the last token of the sentence.
     * Fixed a bug (?) where unigram terms were included even if their
     tokens were part of a multiterm.
+    * Claude COULOMBE - PhD candidate TELUQ / UQAM - fixed a compatibility problem with Python 3
