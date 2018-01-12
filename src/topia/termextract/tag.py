@@ -103,9 +103,9 @@ def normalizePluralForms(idx, tagged_term, tagged_terms, lexicon):
             tagged_term[2] = singular
             return
 
-
+@zope.interface.implementer(interfaces.ITagger)
 class Tagger(object):
-    zope.interface.implements(interfaces.ITagger)
+#    zope.interface.implements(interfaces.ITagger)
 
     rules = (
         correctDefaultNounTag,
